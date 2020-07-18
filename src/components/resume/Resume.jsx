@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import Navbar from '../nav/navbar'
+import Skill from './skill'
+
 
 class Resume extends Component {
     render() {
@@ -12,8 +14,10 @@ class Resume extends Component {
                             <Navbar />
                         </div>
                         <div className="col-md-9 mt-5">
-                                <div className="sectiontitle mb-5">
-                                    <h2 style={{color:'#fff',fontSize:38}}>Resume</h2>
+                            <Skill />
+                                <div className="sectiontitle mb-3" style={{marginTop:80}}>
+                                    <h1 style={{color:'#fff',textTransform:"uppercase"}}>Resume</h1>
+                                    <span className="bighead">resume</span>
                                 </div>
                                 <div className="working">
                                     <div className="smalltitle">
@@ -67,6 +71,7 @@ class Resume extends Component {
                                                     </p>
                                                 </div>
                                             </div>
+                                            
                                     </div>
                                         
                                 </div>
@@ -81,47 +86,33 @@ class Resume extends Component {
                                     <div className="resume-wrapper">
                                             <div className="resume" >
                                                 <div className="resume-summary ">
-                                                    <h5 className="mi-resume-year" style={{color:'#BDC3C7'}}>2018 - Present</h5>
+                                                    <h5 className="mi-resume-year" style={{color:'#BDC3C7'}}>2018-2020</h5>
                                                 </div>
                                                 <div className="resume-details">
-                                                    <h4 style={{color:'#037fff'}}>Frontend Web Developer</h4>
-                                                    <h6 className="mi-resume-company text-white">Abc Company</h6>
-                                                    <p style={{color:'#BDC3C7'}}>
-                                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                                    Quas, magni mollitia, aspernatur consequatur accusamus vero
-                                                    eum facere exercitationem velit suscipit ipsam placeat libero.
-                                                    Deleniti exercitationem nostrum quasi. Molestiae, vel porro.
-                                                    </p>
+                                                    <h4 style={{color:'#037fff'}}>Btech (IT)</h4>
+                                                    <h6 className="mi-resume-company text-white">Information Technology</h6>
+                                                    <h6 className="mi-resume-company text-white">Haldia Institute Of Technology , Haldia, West Bengal </h6>
+                                            
                                                 </div>
                                             </div>
                                             <div className="resume">
                                                 <div className="resume-summary">
-                                                    <h5 className="mi-resume-year" style={{color:'#BDC3C7'}}>2018 - Present</h5>
+                                                    <h5 className="mi-resume-year" style={{color:'#BDC3C7'}}>2015-2017</h5>
                                                 </div>
                                                 <div className="resume-details">
-                                                    <h4 style={{color:'#037fff'}}>Frontend Web Developer</h4>
-                                                    <h6 className="mi-resume-company text-white">Abc Company</h6>
-                                                    <p style={{color:'#BDC3C7'}}>
-                                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                                    Quas, magni mollitia, aspernatur consequatur accusamus vero
-                                                    eum facere exercitationem velit suscipit ipsam placeat libero.
-                                                    Deleniti exercitationem nostrum quasi. Molestiae, vel porro.
-                                                    </p>
+                                                    <h4 style={{color:'#037fff'}}>Intermediate</h4>
+                                                    <h6 className="mi-resume-company text-white">PCM</h6>
+                                                    <h6 className="mi-resume-company text-white">City College Bhagalpur ,Bhagalpur, Bihar </h6>
+                                                    
                                                 </div>
                                             </div>
                                             <div className="resume">
                                                 <div className="resume-summary ">
-                                                    <h5 className="mi-resume-year" style={{color:'#BDC3C7'}}>2018 - Present</h5>
+                                                    <h5 className="mi-resume-year" style={{color:'#BDC3C7'}}>2015</h5>
                                                 </div>
                                                 <div className="resume-details">
-                                                    <h4 style={{color:'#037fff'}}>Frontend Web Developer</h4>
-                                                    <h6 className="mi-resume-company text-white">Abc Company</h6>
-                                                    <p style={{color:'#BDC3C7'}}>
-                                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                                    Quas, magni mollitia, aspernatur consequatur accusamus vero
-                                                    eum facere exercitationem velit suscipit ipsam placeat libero.
-                                                    Deleniti exercitationem nostrum quasi. Molestiae, vel porro.
-                                                    </p>
+                                                    <h4 style={{color:'#037fff'}}>High School</h4>
+                                                    <h6 className="mi-resume-company text-white">DAV Public School , Mathurapur ,Bhagalpur,Bihar</h6>
                                                 </div>
                                             </div>
                                     </div>

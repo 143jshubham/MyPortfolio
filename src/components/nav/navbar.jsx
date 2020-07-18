@@ -49,8 +49,8 @@ class navbar extends Component {
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink to="/portfolio" >
-                                Portfolio
+                                <NavLink to="/project" >
+                                Project
                                 </NavLink>
                             </li>
                             <li>

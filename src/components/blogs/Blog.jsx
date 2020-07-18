@@ -39,6 +39,7 @@ function Blog () {
                 </div>
                 <div className="col-md-9">
                  <h1 className="subhead-reviews">Recent Blogs</h1>
+                 <spam className="bighead" style={{color:'#fff'}}>Recent Blogs</spam>
                             <div className="row mt-5 mb-5 blog">
                                 <Blogcard blogs={blogs} page={page}/>
                             </div>

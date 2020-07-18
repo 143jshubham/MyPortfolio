@@ -11,13 +11,14 @@ function Blogcard ({blogs,page}) {
        return(
         blogs.map((blog,index)=>{
             return (
-                <div className="col-md-6 col-12 mt-5" key={blog.id}>
-                    <a href={blog.a}>
+                <div className="col-md-6 col-12 mt-5 blog-card" key={blog.id}>
+                  
                     <div className="card">
                     <img src={blog.img}/>
-                        <p style={{color:'#BDC3C7',marginTop:-60,marginLeft:25,fontSize:22}}>{blog.p}</p>   
+                        <p style={{color:'#BDC3C7',marginTop:-60,marginLeft:25}}>{blog.p}</p>   
+                        <a className="github"  style={{color:'#BDC3C7',marginTop:-40,marginLeft:'90%',fontSize:22}} href={blog.a}><i class="fa fa-medium" aria-hidden="true"></i></a> 
                 </div>
-                </a>
+               
             </div>
             )
         })

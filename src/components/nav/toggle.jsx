@@ -1,7 +1,6 @@
 import React from 'react'
 
  function toggle(props) {
-     console.log(props.isdisplay)
      let iconClasses="fa fa-bars";
      if (props.isdisplay){
          iconClasses="fa fa-times";

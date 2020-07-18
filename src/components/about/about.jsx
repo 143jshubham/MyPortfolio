@@ -8,14 +8,16 @@ class about extends Component {
                 <div className="container-fluid">
            
                 <h1 className="subhead">About Me</h1>
-                <div className="row  mt-5">
+                <spam className="bighead" style={{color:'#fff'}}>About Me</spam>
+                <div className="row  mt-2">
                     <div className="col-md-2">
                        <Navbar />
                     </div>
-                    <div className="col-md-10 col-12 " >
+                    <div className="col-md-10 col-12" >
                             <div className="row description">
                                 <div className="col-md-7 col-12">
-                                     <img src="images/shu.jpeg"></img>
+                                        <img src="images/shu.jpeg"></img>
+                                    
                                 </div>
                                 <div className="col-md-5 col-12">
                                     <h3>I am <span style={{color:'blue'}}>Shubham kumar Raj</span></h3>
@@ -38,8 +40,8 @@ class about extends Component {
                                 <div className="col-md-4 col-12">
                                 <div className="card">
                                         <div className="card-body">
-                                            <i class="fa fa-mobile fa-4x" aria-hidden="true" style={{color:'blue'}}></i>
-                                            <h4 style={{color:'#fff',marginTop:5}}>Web Design</h4>
+                                            <i className="fa fa-mobile fa-4x" aria-hidden="true" style={{color:'blue'}}></i>
+                                            <h4 style={{color:'#fff',marginTop:5}}>Web Development</h4>
                                             <p style={{color:'#BDC3C7'}}>I am a frontend web developer. I can provide clean code and pixel 
                                             perfect design. I also make website more & more interactive with web animations</p>
                                         </div>
@@ -49,10 +51,11 @@ class about extends Component {
                                 <div className="col-md-4 col-12">
                                 <div className="card">
                                         <div className="card-body">
-                                            <i class="fa fa-mobile fa-4x" aria-hidden="true" style={{color:'blue'}}></i>
-                                            <h4 style={{color:'#fff',marginTop:5}}>Web Design</h4>
-                                            <p style={{color:'#BDC3C7'}}>I am a frontend web developer. I can provide clean code and pixel 
-                                            perfect design. I also make website more & more interactive with web animations</p>
+                                            <i className="fa fa-mobile fa-4x" aria-hidden="true" style={{color:'blue'}}></i>
+                                            <h4 style={{color:'#fff',marginTop:5}}>Data Analytics</h4>
+                                            <p style={{color:'#BDC3C7'}}>I have worked on So many Real world Dataset .I can provide all 
+                                            the analysis of datasets
+                                           ,I have Worked on IPL dataset, Covid-19 dataset.</p>
                                         </div>
                                            
                                     </div>
@@ -60,7 +63,7 @@ class about extends Component {
                                 <div className="col-md-4 col-12">
                                     <div className="card">
                                         <div className="card-body">
-                                            <i class="fa fa-mobile fa-4x" aria-hidden="true" style={{color:'blue'}}></i>
+                                            <i className="fa fa-mobile fa-4x" aria-hidden="true" style={{color:'blue'}}></i>
                                             <h4 style={{color:'#fff',marginTop:5}}>Web Design</h4>
                                             <p style={{color:'#BDC3C7'}}>I am a frontend web developer. I can provide clean code and pixel 
                                             perfect design. I also make website more & more interactive with web animations</p>
@@ -87,12 +90,14 @@ class about extends Component {
                                 <div className="col-md-6 col-12">
                                     <div className="card">
                                         <div className="card-body">
-                                            <p style={{color:'#BDC3C7'}}>I am a frontend web developer. I can provide clean code and pixel 
-                                            perfect design. I also make website more & more interactive with web animations</p>
+                                            <p style={{color:'#BDC3C7'}}>Hi, 
+                                                    I am Shipra saxena and I am a part of the Data Science Team at Analytics Vidhya.
+                                                     We like your article and would like to add it to and feature
+                                                      it on our Medium publication(https://medium.com/analytics-vidhya). </p>
                                         </div>      
                                     </div>
-                                    <h5 style={{marginTop:20,color:'#fff'}}>Nitish Singh</h5>
-                                    <p style={{color:'#BDC3C7'}}>Founder at Campusx</p>
+                                    <h5 style={{marginTop:20,color:'#fff'}}>Shipra saxena</h5>
+                                    <p style={{color:'#BDC3C7'}}>Analytics Vidhya</p>
                                 </div>
                                 
 

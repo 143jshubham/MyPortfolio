@@ -212,19 +212,42 @@ p{
    margin-top:120px;
    margin-left:340px
 }
+.about .bighead{
+    color:#BDC3C7;
+    font-size: 60px;
+   text-transform: uppercase;
+   margin-top:100px;
+   margin-left:340px;
+   opacity:.018;
+   font-weight:800;
+}
 .about .description h3{
     color:#fff
 }
-.about h1:after,.about h1:before{
+/* .about .description .card.imgcard{
+    border-shadow: 10px 10px 0px #485585;
+} */
+.about h1.subhead:before{
     content: "";
     position: absolute;
-    left: 0;
-    top:13;
+    left:360px;
+    top:175px;
     bottom:0px;
     height: 5px;
     border-radius: 100px;
-    width: 100px;
+    width: 110px;
     background: rgba(3,127,255,.3);
+}
+.about h1.subhead:after{
+    content: "";
+    position: absolute;
+    left:360px;
+    top:175px;
+    bottom:0px;
+    height: 5px;
+    border-radius: 100px;
+    width: 40px;
+    background: #037fff;
 }
 .about .description ul{
     margin-top:40px;
@@ -235,8 +258,8 @@ p{
     margin-left:-32px;
 }
 .about .description img{
-    width:100%;
-    height:450px
+    width:95%;
+    height:410px
 }
 @media (max-width:750px){
     .about .description{
@@ -251,7 +274,28 @@ p{
     }
     .about .description img{
         width:100%;
-        height:350px
+        height:350px;
+      
+    }
+    .about h1.subhead:before{
+        left:20px;
+        top:135px;    
+    }
+    .about h1.subhead:after{
+        left:20px;
+        top:135px;  
+    }
+    .about .description ul{
+        margin-top:40px;
+    }
+    .about .bighead{
+        color:#BDC3C7;
+        font-size:50px;
+       text-transform: uppercase;
+       margin-top:0px;
+       margin-left:0px;
+       opacity:.018;
+       font-weight:800;
     }
 }
 @media (max-width: 480px){
@@ -336,6 +380,7 @@ p{
 .about .reviews .card h5{
     color:#BDC3C7;
 }
+
 .about .reviews .card:after{
     content: "";
     position: absolute;
@@ -362,6 +407,7 @@ p{
         border: 1px solid #2e344e;
         border-left: 5px solid #037fff;
     }
+
 }
 /* ---------------------------------------------------
     BLOG PAGE STYLE    
@@ -370,6 +416,38 @@ p{
     margin-top: 100px;
     color: #fff;
     text-transform: uppercase;
+}
+ 
+.main-blog .bighead{
+    color:#BDC3C7;
+    font-size:42px;
+   text-transform: uppercase;
+   margin-top:0px;
+   margin-left:0px;
+   opacity:.020;
+   font-weight:800;
+}
+.main-blog h1.subhead-reviews:before{
+    content: "";
+    position: absolute;
+    left:20px;
+    top:175px;
+    bottom:0px;
+    height: 5px;
+    border-radius: 100px;
+    width: 110px;
+    background: rgba(3,127,255,.3);
+}
+.main-blog h1.subhead-reviews:after{
+    content: "";
+    position: absolute;
+    left:20px;
+    top:175px;
+    bottom:0px;
+    height: 5px;
+    border-radius: 100px;
+    width: 40px;
+    background: #037fff;
 }
 .blog .card{
     height:23rem;
@@ -383,6 +461,9 @@ p{
     width:94%;
     margin:1rem 1rem 4.5rem .9rem;
     
+}
+.blog-Card p{
+    font-size: 22px;
 }
 .main-blog .pagination ul{
     display: block;
@@ -410,6 +491,127 @@ p{
     color: #037fff;
     line-height: 38px;
 }
+.project-card a.github {
+    margin-left: 400;
+}
+.project-card a.crome{
+    margin-left: 450;
+}
+
+/* ---------------------------------------------------
+    Resume PAGE STYLE   SKILL PART 
+----------------------------------------------------- */
+@media (max-width: 480px){
+.skill .rightside{
+    margin-top:20px;
+}
+}
+.skill .skill-name:before{
+    content: "";
+    position: absolute;
+    bottom:0px;
+    height: 5px;
+    border-radius: 100px;
+    background: rgba(3,127,255,.3);
+
+}
+.skill .skill-name:after{
+    content: "";
+    position: absolute;
+    bottom:0px;
+    height: 5px;
+    border-radius: 100px;
+    background: #037fff;
+}
+.skill .html:before{
+    left:160px;
+    top:0px;
+    width:100%;
+
+}
+.skill .html:after{
+    left:160px;
+    top:0px;
+    width:90%;
+}
+.skill .css:before{
+    left:160px;
+    top:60px;
+    width:100%;
+
+}
+.skill .css:after{
+    left:160px;
+    top:60px;
+    width:85%;
+}
+.skill .react:before{
+    left:160px;
+    top:60px;
+    width:100%;
+
+}
+.skill .react:after{
+    left:160px;
+    top:60px;
+    width:80%;
+}
+.skill .javascript:before{
+    left:160px;
+    top:0px;
+    width:100%;
+
+}
+.skill .javascript:after{
+    left:160px;
+    top:0px;
+    width:75%;
+}
+.skill .python:after{
+    left:160px;
+    top:120px;
+    width:75%;
+}
+.skill .python:before{
+    left:160px;
+    top:120px;
+    width:100%;
+
+}
+.skill .anlysis:after{
+    left:160px;
+    top:180px;
+    width:90%;
+}
+.skill .anlysis:before{
+    left:160px;
+    top:180px;
+    width:100%;
+
+}
+.skill .flask:before{
+    left:160px;
+    top:120px;
+    width:100%;
+
+}
+.skill .flask:after{
+    left:160px;
+    top:120px;
+    width:80%;
+}
+.skill .dash:before{
+    left:160px;
+    top:180px;
+    width:100%;
+
+}
+.skill .dash:after{
+    left:160px;
+    top:180px;
+    width:75%;
+}
+
 
 
 /* ---------------------------------------------------
@@ -420,12 +622,45 @@ p{
     border-left: 3px solid #2e344e;
 }
 .resume{
-    margin-top:90px;
+    margin-top:50px;
     margin-left:-45px;
 }
 .resume-area .sectiontitle{
     position: relative;
     z-index: 1;
+
+}
+.resume-area .sectiontitle:before{
+    content: "";
+    position: absolute;
+    left:8px;
+    top:55px;
+    bottom:0px;
+    height: 5px;
+    border-radius: 100px;
+    width: 110px;
+    background: rgba(3,127,255,.3);
+
+}
+.resume-area .sectiontitle:after{
+    content: "";
+    position: absolute;
+    left:8px;
+    top:55px;
+    bottom:0px;
+    height: 5px;
+    border-radius: 100px;
+    width: 40px;
+    background: #037fff;
+}
+.resume-area .bighead{
+    color:#BDC3C7;
+    font-size: 60px;
+   text-transform: uppercase;
+   margin-top:10px;
+   margin-left:8px;
+   opacity:.020;
+   font-weight:800;
 }
 .resume-area .smalltitle{
     display: flex;
@@ -560,6 +795,9 @@ p{
     padding:1px 1px; */
     transform: rotateX(180deg);
   }
+  /* ---------------------------------------------------
+        contact PAGE STYLE    
+----------------------------------------------------- */
 
   .email .form-field label{
     position: absolute;
@@ -579,12 +817,46 @@ p{
   width:480px;
   height:50px;
     font-size: 1rem;
+    outline: none;
     
 }
+.email .bighead{
+    color:#BDC3C7;
+    font-size:50px;
+   text-transform: uppercase;
+   margin-top:0px;
+   margin-left:0px;
+   opacity:.020;
+   font-weight:800;
+}
+.email h1.subhead-reviews:before{
+    content: "";
+    position: absolute;
+    left:20px;
+    top:120px;
+    bottom:0px;
+    height: 5px;
+    border-radius: 100px;
+    width: 110px;
+    background: rgba(3,127,255,.3);
+}
+.email h1.subhead-reviews:after{
+    content: "";
+    position: absolute;
+    left:20px;
+    top:120px;
+    bottom:0px;
+    height: 5px;
+    border-radius: 100px;
+    width: 40px;
+    background: #037fff;
+}
+
 .email .form-field textarea{
     border: 1px solid #2e344e;
     background-color:#191d2b ;
       font-size: 1rem;
+      outline: none;
     
       
   }
@@ -595,3 +867,21 @@ margin-top: 30px;
 .email .form-field input:focus {
     outline: none;
 }
+.email .card{
+    border: 1px solid #2e344e;
+    background-color:#191d2b  ;
+}
+.email .mail,.email .phone{
+    margin-left: ;
+}
+@media (max-width: 480px){
+    .email .form-field input{
+        border: 1px solid #2e344e;
+        background-color:#191d2b ;
+        width:325px;
+        height:50px;
+          font-size: 1rem;
+          
+      }
+}
+
